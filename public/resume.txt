@@ -1,0 +1,57 @@
+Shivanshi Awasthi
+Software Developer | Python | C/C++ | Data Structures | Problem Solving
+Kanpur, India | +91-6386766392 | awasthishivanshi805@gmail.com
+LinkedIn: https://www.linkedin.com/in/shivanshi-awasthi-927b44337
+
+Professional Summary
+Computer Science undergraduate with strong interest in software development and problem solving. Skilled in Python, C/C++, and Data Structures with a growing foundation in programming and analytical thinking. Completed Deloitte Data Analytics Job Simulation and actively improving technical skills through training and projects.
+
+Education
+Bachelor of Technology (B.Tech) – Computer Science and Engineering
+Kanpur Institute of Technology, Kanpur (2023 – 2027)
+CGPA: 7.2
+
+Relevant Coursework
+- Data Structures and Algorithms
+- Object Oriented Programming
+- Database Management Systems
+
+Technical Skills
+Programming Languages: Python, C, C++
+Core Concepts: Data Structures & Algorithms, Problem Solving
+Soft Skills: Communication, Analytical Thinking, Team Collaboration
+
+Projects
+1. System Optimization Project
+   Developed an optimized solution reducing processing time by 30% using Python.
+
+2. Student Management System
+   Console application to manage student records with add, update, delete, and search using file handling.
+
+3. Hurdle Game (Python)
+   Python-based hurdle game implementing loops, conditions, and random obstacle generation.
+
+4. Product Line Profitability & Margin Performance Dashboard (Nassau Candy Distributor)
+   Tech Stack: Python, Pandas, Plotly, Streamlit
+   Built an interactive dashboard to analyze profitability and margin performance.
+   Performed data cleaning, transformation, and exploratory data analysis.
+   Created interactive visualizations and generated business insights for profitability decisions.
+
+5. CivicPulse – Citizen Issue Reporting Platform (Ongoing)
+   Developing a data-driven platform for reporting and tracking civic issues.
+   Working on structured data collection, issue categorization, and dashboard-based monitoring.
+
+Certifications
+- Deloitte Australia – Data Analytics Job Simulation (Forage)
+- TATA Crucible Campus Quiz 2025 – Unstop
+
+Training / Courses
+- C/C++ and Data Structures & Algorithms Training – Currently Pursuing
+- Python Programming Course – Udemy
+
+Achievements
+- Top 5% among 200+ participants in TATA Crucible Campus Quiz 2025
+
+Languages
+- Hindi – Native
+- English – Intermediate
