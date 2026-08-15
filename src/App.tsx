@@ -1,6 +1,9 @@
+import { useScrollSpy } from './hooks/useScrollSpy'
+import { BokehBackground } from './components/BokehBackground/BokehBackground'
 import './App.css'
 
 const navItems = ['Home', 'About', 'Experience', 'Projects', 'Skills', 'Contact']
+const sectionIds = ['home', 'about', 'experience', 'projects', 'skills', 'contact']
 
 const credibility = ['B.Tech CSE', 'Python', 'SQL', 'Data Analytics', 'Streamlit', 'Problem Solving']
 
@@ -88,8 +91,11 @@ const profileMetrics = [
 ]
 
 function App() {
+  const activeSection = useScrollSpy(sectionIds)
+
   return (
     <div className="portfolio-shell">
+      <BokehBackground />
       <div className="topographic topographic-one" aria-hidden="true" />
       <div className="topographic topographic-two" aria-hidden="true" />
 
@@ -101,11 +107,20 @@ function App() {
           </a>
 
           <div className="nav-links">
-            {navItems.map((item) => (
-              <a key={item} href={`#${item.toLowerCase()}`}>
-                {item}
-              </a>
-            ))}
+            {navItems.map((item) => {
+              const id = item.toLowerCase()
+              const isActive = activeSection === id
+              return (
+                <a 
+                  key={item} 
+                  href={`#${id}`}
+                  className={isActive ? 'nav-link active' : 'nav-link'}
+                  data-active={isActive}
+                >
+                  {item}
+                </a>
+              )
+            })}
           </div>
 
           <a href="#contact" className="nav-cta button button-primary">
